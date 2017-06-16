@@ -1,0 +1,150 @@
+fileFormatVersion: 2
+guid: 8a447e3e1e2d94a8d93959dae504b188
+timeCreated: 1485377302
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Camera01
+    100002: Camera01.Target
+    100004: Camera02
+    100006: Camera02.Target
+    100008: Camera03
+    100010: Camera04
+    100012: Camera06
+    100014: //RootNode
+    100016: Ground Flat
+    100018: Ground Flat Extruded
+    100020: Ground Flat Extruded_MeshPart0
+    100022: Ground Flat Extruded_MeshPart1
+    100024: Longitudes Inside
+    100026: Longitudes Outside
+    100028: Meridian07
+    100030: Meridians Inside
+    100032: Meridians Outside
+    100034: Omni01
+    100036: Omni02
+    100038: Sea
+    100040: Spot01
+    100042: Spot01.Target
+    100044: Spot02
+    100046: Spot02.Target
+    100048: Spot03
+    100050: Spot03.Target
+    400000: Camera01
+    400002: Camera01.Target
+    400004: Camera02
+    400006: Camera02.Target
+    400008: Camera03
+    400010: Camera04
+    400012: Camera06
+    400014: //RootNode
+    400016: Ground Flat
+    400018: Ground Flat Extruded
+    400020: Ground Flat Extruded_MeshPart0
+    400022: Ground Flat Extruded_MeshPart1
+    400024: Longitudes Inside
+    400026: Longitudes Outside
+    400028: Meridian07
+    400030: Meridians Inside
+    400032: Meridians Outside
+    400034: Omni01
+    400036: Omni02
+    400038: Sea
+    400040: Spot01
+    400042: Spot01.Target
+    400044: Spot02
+    400046: Spot02.Target
+    400048: Spot03
+    400050: Spot03.Target
+    2300000: Ground Flat
+    2300002: Ground Flat Extruded_MeshPart0
+    2300004: Ground Flat Extruded_MeshPart1
+    2300006: Longitudes Inside
+    2300008: Longitudes Outside
+    2300010: Meridian07
+    2300012: Meridians Inside
+    2300014: Meridians Outside
+    2300016: Sea
+    3300000: Ground Flat
+    3300002: Ground Flat Extruded_MeshPart0
+    3300004: Ground Flat Extruded_MeshPart1
+    3300006: Longitudes Inside
+    3300008: Longitudes Outside
+    3300010: Meridian07
+    3300012: Meridians Inside
+    3300014: Meridians Outside
+    3300016: Sea
+    4300000: Sea
+    4300002: Meridian07
+    4300004: Meridians Inside
+    4300006: Ground Flat
+    4300008: Meridians Outside
+    4300010: Longitudes Outside
+    4300012: Longitudes Inside
+    4300014: Ground Flat Extruded_MeshPart0
+    4300016: Ground Flat Extruded_MeshPart1
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

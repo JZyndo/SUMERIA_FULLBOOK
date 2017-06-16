@@ -1,0 +1,56 @@
+RELEASE NOTES
+20170525
+	Changes
+	-Parallax now has axis multipliers to control x and y parallaxing seperate
+	-Parallax can now have rotation
+	-Nested masks are now possible
+	-Layers nested inside each other keep their parallax value
+	-Override page now has fov and page tilt overrides
+	-Sort by name removed
+	-In single scene projects, you can remember the last page your were on if you check the bool in PageEventsManager on the Main Folder
+	Improvements
+	-On departure works more consistently
+	-Importing PSD now shows the filenames
+	-Double taps and holding a direction now wont trigger till you get to a page
+	Imported audio now goes into an audio folder
+
+20170327
+	Changes
+	-Update Pages updates x and y, but not z coordinate
+	Improvements
+	-When you update localization data, it prompts you to set empty internal_ids
+20170323
+	Changes
+	-rearrangeWindow
+20170315
+	Improvements
+		- Progress Meter On Creating Pages from PSDS
+		- SkyBox Fade has been enhanced
+		- UNITY IAP has been added
+		- Panel Transition Fade's correctly
+		- Basic Funcitonality for Scene transitions
+	Changes
+	Fixes
+	- Panel Fade works with TextMeshProTextUGUI
+	- Make Panel Fade's time more accurate
+	- Remove listeners on DisbaleAtDistFromCamera
+	- CMD+SHIFT+W forces a veiw update
+	- Reflection Probe Works
+	- Page Update Issue
+20170307
+	Improvements
+		- Update Image Import Settings added 
+		- About Me added
+		- Set Mobile Friendly Settings added to menu for bulk changes 
+		- Better feedback on Update pages and Initialize Camera
+		- Update 3rd Party Plugin and associated code
+		- Create features for use with OBB on android
+		- Use Sprite packer
+		- Disable pages at distance from camera
+	Changes
+		- Forward rendering selected
+		- Disabled reflection Probe and cameraFX by default for better mobile performance
+	Fixes
+20160802
+	Improvements
+		- Base

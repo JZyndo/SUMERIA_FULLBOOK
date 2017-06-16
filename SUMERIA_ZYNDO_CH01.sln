@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{BEADC215-457A-6095-6DB1-D67BF6ACEA1A}") = "SUMERIA_ZYNDO_CH01", "Assembly-CSharp.csproj", "{1690B826-DAA1-9003-29D4-6741518DB417}"
+EndProject
+Project("{BEADC215-457A-6095-6DB1-D67BF6ACEA1A}") = "SUMERIA_ZYNDO_CH01", "Assembly-CSharp-Editor.csproj", "{D72BB34C-0ECF-ABBC-58D4-1DC4AAEBF766}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1690B826-DAA1-9003-29D4-6741518DB417}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1690B826-DAA1-9003-29D4-6741518DB417}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1690B826-DAA1-9003-29D4-6741518DB417}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1690B826-DAA1-9003-29D4-6741518DB417}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D72BB34C-0ECF-ABBC-58D4-1DC4AAEBF766}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D72BB34C-0ECF-ABBC-58D4-1DC4AAEBF766}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D72BB34C-0ECF-ABBC-58D4-1DC4AAEBF766}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D72BB34C-0ECF-ABBC-58D4-1DC4AAEBF766}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal
