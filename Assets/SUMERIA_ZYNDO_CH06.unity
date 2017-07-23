@@ -22918,6 +22918,7 @@ GameObject:
   - 114: {fileID: 840295894}
   - 114: {fileID: 840295893}
   - 114: {fileID: 840295892}
+  - 114: {fileID: 840295900}
   m_Layer: 5
   m_Name: CH06-001-001
   m_TagString: Untagged
@@ -23079,6 +23080,45 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &840295900
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 840295890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6fe214a4ec6681342a970dd68135bdb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Duration: 0.5
+  FOVVal: 10
+  ZoomVal: 1.4
+  ZoomOutCamDelay: 0.1
+  BoundsMulti: 0.75
+  UseMoveLerp: 0
+  MoveCamLerp: 1
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    - time: 1
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  SnapOnDragRelease: 0
+  MoveMulti: 0.001
+  HasMovedThreshold: 3
+  DragLerp: 10
+  SnapLerp: 5
 --- !u!1 &842936841
 GameObject:
   m_ObjectHideFlags: 0
