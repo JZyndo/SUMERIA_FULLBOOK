@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{1690B826-DAA1-9003-29D4-6741518DB417}</ProjectGuid>
+    <ProjectGuid>{2CC5D584-4F5B-5B65-1ECA-107261E63BC6}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -19,7 +19,7 @@
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
     <OutputPath>Temp\bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE</DefineConstants>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_1;UNITY_5_4;UNITY_5;UNITY_64;UNITY_ANALYTICS;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_OSX;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_GAMECENTER;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_OSX;UNITY_TEAM_LICENSE;CROSS_PLATFORM_INPUT</DefineConstants>
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
     <NoWarn>0169</NoWarn>
@@ -48,11 +48,16 @@
      <Compile Include="Assets\Scripts\spinfast.cs" />
      <Compile Include="Assets\Zyndo\ClientScripts\SetUIText.cs" />
      <Compile Include="Assets\Zyndo\ClientScripts\UIPanelOperations.cs" />
+     <Compile Include="Assets\Zyndo\Plugins\Android\GooglePlayDownloader.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\AnimationEventBase.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\AudioEventBase.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\CameraMoveEvent.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\CameraPan.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\CameraPunch.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\ControlPanel.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\DisbaleAtDistFromCamera.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\DownloadObb.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\GoToChapterDirectly.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\GoToPage.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\InOutFade.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\AudioPartGroup.cs" />
@@ -71,11 +76,13 @@
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\PageEventBase.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\PageEventsManager.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\PageLoader.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\PageOverrides.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\PageSelection.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\PanelClusterView.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\PanelTilt.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\Parallax.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\SessionManager.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\SetPositionBasedOnPage.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\StartUp.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\TapZoom.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\Internal\Test.cs" />
@@ -86,10 +93,22 @@
      <Compile Include="Assets\Zyndo\RuntimeScripts\OnOffEvent.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\PanelFade.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\PanelTransition.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\ParallaxSettings.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\PlaySound.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\PropertyFade.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\SceneTransition.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\SkySphereFade.cs" />
      <Compile Include="Assets\Zyndo\RuntimeScripts\SkyboxFade.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\Store\IAPButton.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\Store\PurchaseAccessToScene.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\Store\ZyndoIAPButton.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\VR\LookAtMainCamera.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\VR\ReticleFeedback.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\VR\SetActiveBasedOnVR.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\VR\VRButton.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\VR\VRChapterMenu.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\VR\VRMenuControls.cs" />
+     <Compile Include="Assets\Zyndo\RuntimeScripts\VR\VRSimInput.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Demo\Scripts\DemoBlendModePicker.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Demo\Scripts\DemoObject.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Demo\Scripts\DemoObjectPicker.cs" />
@@ -98,6 +117,9 @@
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\BlendMaterials.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\BlendMode.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\BlendModeEffect.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\CameraOverlay.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\MaskBehaviour.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\MaskMode.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\ObjectType.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\BlendModes\Scripts\RenderMode.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\Cinema Suite\Cinema Pro Cams\Camera Behaviours\Perlin.cs" />
@@ -178,10 +200,25 @@
      <Compile Include="Assets\Zyndo\ThirdParty\Colorful FX\Scripts\Effects\WaveDistortion.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\Colorful FX\Scripts\Effects\WhiteBalance.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\Colorful FX\Scripts\Effects\Wiggle.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Demo\GameTest.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\EpicPrefs.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Handlers\Cryptor.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Handlers\CustomSurrogates\ColorSerializationSurrogate.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Handlers\CustomSurrogates\QuaternionSerializationSurrogate.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Handlers\CustomSurrogates\TransfromSerializationSurrogate.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Handlers\CustomSurrogates\VectorSerializationSurrogate.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Handlers\Key.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Handlers\Serializer.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\HotTotemAssets\EpicPrefs\Plugins\HotTotemAssets\EpicPrefs\Code\Helpers\Operators.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Demo Scenes\Scripts\Control.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Demo Scenes\Scripts\DoLog.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Demo Scenes\Scripts\VelociraptorController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Scripts\GotoWaypoint.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Scripts\MathUtils.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Scripts\PathMagic.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Scripts\PathMagicAnimator.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Scripts\PathMagicFollower.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Scripts\PathMagicJoint.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\PathMagic\Scripts\Waypoint.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\Benchmark01.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\Benchmark01_UGUI.cs" />
@@ -189,14 +226,20 @@
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\Benchmark03.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\Benchmark04.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\CameraController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\ChatController.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\FloatingText.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\ObjectSpin.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\ShaderPropAnimator.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\SimpleScript.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\SkewTextExample.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_DigitValidator.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_ExampleScript_01.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_FrameRateCounter.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_TextEventCheck.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_TextEventHandler.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_TextInfoDebugTool.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_TextSelector.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_TextSelector_A.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMP_UiFrameRateCounter.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TMPro_InstructionOverlay.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TeleType.cs" />
@@ -205,21 +248,36 @@
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\TextMeshSpawner.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\VertexColorCycler.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\VertexJitter.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\VertexShakeA.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\VertexShakeB.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\VertexZoom.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Examples\Scripts\WarpTextExample.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\FastAction.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\InlineGraphic.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\InlineGraphicManager.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\MaterialReferenceManager.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_Asset.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_ColorGradient.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_Compatibility.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_CoroutineTween.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_DefaultControls.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_Dropdown.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_FontAsset.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_InputField.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_InputValidator.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_LineInfo.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_ListPool.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_MaterialManager.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_MeshInfo.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_ObjectPool.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_PhoneNumberValidator.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_ScrollbarEventHandler.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_SelectionCaret.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_Settings.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_Sprite.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_SpriteAnimator.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_SpriteAsset.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_SpriteAssetImportFormats.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_Style.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_StyleSheet.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TMP_SubMesh.cs" />
@@ -241,15 +299,76 @@
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TextContainer.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TextMeshPro.cs" />
      <Compile Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Scripts\TextMeshProUGUI.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Common\SessionData.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Examples\ExampleInteractiveItem.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Examples\ExampleRenderScale.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Examples\ExampleRotation.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Examples\ExampleTouchpad.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\Asteroid.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\AsteroidExplosion.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\EnvironmentController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\ExplosionPhysicsForce.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\FlyerAlignmentChecker.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\FlyerGameController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\FlyerHealthController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\FlyerLaser.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\FlyerLaserController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\FlyerMovementController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\ParticleSystemMultiplier.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\Ring.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Flyer\UIController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Intro\IntroManager.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\AICharacterControl.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\AgentTrail.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\CameraOrbit.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\DestinationMarker.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\ExitArea.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\MazeGameController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\MazeTargetSetting.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\Player.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\SwitchButton.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\ThirdPersonCharacter.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Maze\Turret.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Menu\MenuAnimator.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Menu\MenuButton.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Menu\MenuItemPopout.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Menu\MenuSelectorMover.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\ShootingGallery\ShootingGalleryController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\ShootingGallery\ShootingGalleryGun.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\ShootingGallery\ShootingGalleryScore.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\ShootingGallery\ShootingTarget.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\ShootingGallery\UIController.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\GUIArrows.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\InputWarnings.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\ObjectPool.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\PlatformDependentText.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\Reticle.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\ReturnToMainMenu.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\SelectionRadial.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\SelectionSlider.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\UIFader.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\UIMovement.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\UITint.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\VRCameraFade.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRSampleScenes\Scripts\Utils\VRCameraUI.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRStandardAssets\Scripts\VRDeviceManager.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRStandardAssets\Scripts\VREyeRaycaster.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRStandardAssets\Scripts\VRFPSCounter.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRStandardAssets\Scripts\VRInput.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRStandardAssets\Scripts\VRInteractiveItem.cs" />
+     <Compile Include="Assets\Zyndo\ThirdParty\VRSamples\VRStandardAssets\Scripts\VRTrackingReset.cs" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\ContrastGain.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Kuwahara.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\MaskableFont.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\BleachBypass.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\GaussianBlur.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Bitmap-Mobile.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\ChannelClamper.shader" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\layout-v11\status_bar_ongoing_event_progress_bar.xml" />
      <None Include="Assets\Zyndo\Shaders\BlendedSkybox.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Technicolor.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Fonts\Anton OFL.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Glitch.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Threshold.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Surface.cginc" />
@@ -263,12 +382,16 @@
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Editor\Shaders\_DynamicLookup.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\SCurveContrast.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\ParticleDefault\Grab.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\Cinema Suite\Cinema Pro Cams\Image Effects (Pro Only)_CS\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\values\strings.xml" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Glitch.cginc" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Sharpen.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_SDF-Mobile Overlay.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\values-v9\styles.xml" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\readme.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Blend.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\Cinema Suite\Cinema Pro Cams\Image Effects (Pro Only)_CS\_Sources\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Vibrance.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Cinema Suite\Cinema Pro Cams\Lens Data\Resources\CinemaSuite_LensData.txt" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\SpriteDefault\Framebuffer.shader" />
@@ -281,10 +404,13 @@
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_SDF-Surface-Mobile.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Posterize.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Wiggle.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\VRSamples\Plugins\Android\Assets\OSIG_Readme.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Noise.shader" />
      <None Include="Assets\Resources\LocalizationFile.xml" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\SpriteMask.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\LensDistortionBlur.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\MeshDefault\Framebuffer.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\MeshMask.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Dithering.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Strokes.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\ComicBook.shader" />
@@ -292,11 +418,20 @@
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\WaveDistortion.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro.cginc" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Negative.shader" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\layout\status_bar_ongoing_event_progress_bar.xml" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\build.xml" />
+     <None Include="Assets\Zyndo\ThirdParty\Cinema Suite\Cinema Pro Cams\Editor\Resources\CinemaProCamsInstalledProductInfo.xml" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\layout\main.xml" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Colorful.cginc" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\MaskableUI.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\MeshDefault\Grab.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Fonts\Oswald-Bold - OFL.txt" />
      <None Include="Assets\Zyndo\Shaders\SkySphereBlended.shader" />
+     <None Include="Assets\Zyndo\Docs\Release Notes.txt" />
+     <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMP_SDF-Mobile Masking.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\PhotoFilter.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\HueSaturationValue.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\Cinema Suite\About\Editor\Resources\BaseProductInfo.xml" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\BilateralGaussianBlur.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_Bitmap.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\ShadowsMidtonesHighlights.shader" />
@@ -311,6 +446,7 @@
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\DoubleVision.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\SpriteDefault\UnifiedGrab.shader" />
      <None Include="Assets\Zyndo\Shaders\SkyboxBlend.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\DynamicLookup.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Pixelate.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\CrossStitch.shader" />
@@ -320,34 +456,44 @@
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\HueFocus.shader" />
      <None Include="Assets\Models\bacteria_fbx\read_me.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\LookupFilter3D.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\GlassDistortion.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Fonts\Bangers - OFL.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\GrainyBlur.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\SpriteLuminanceTint.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Levels.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\DirectionalBlur.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\TVVignette.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Changelog.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Cinema Suite\Cinema Pro Cams\Shader\Stereo3D.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\SpriteOverlapColor.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\ChannelSwapper.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\LookupFilter.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\AnalogTV.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\UIDefaultFont\Grab.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\SurfMesh.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\ParticleDefault\UnifiedGrab.shader" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Resources\Shaders\TMPro_SDF 3.shader" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\values-v11\styles.xml" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Readme.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Kuwahara.cginc" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\values\main-strings.xml" />
      <None Include="Assets\Models\Globe3D Kit Continents FBX\readme.txt" />
      <None Include="Assets\Zyndo\ThirdParty\PathMagic\Docs\Release Notes.txt" />
      <None Include="Assets\Zyndo\ThirdParty\TextMesh Pro\Fonts\komika_text\Komika.txt" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\UIDefaultFont\Framebuffer.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\BlendModes.cginc" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\res\values\styles.xml" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\SpriteDefault\Grab.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Letterbox.shader" />
      <None Include="Assets\Models\Leukocyte und Ery Pack (C4DR13 OBJ DAE FBX)\Info.txt" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\RadialBlur.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\LookupFilter2D.shader" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Frost.shader" />
+     <None Include="Assets\Zyndo\Plugins\Android\UnityOBBDownloader\AndroidManifest.xml" />
      <None Include="Assets\Zyndo\ThirdParty\Colorful FX\Shaders\Convolution3x3.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\MeshDefault\UnifiedGrab.shader" />
      <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\ParticleDefault\Framebuffer.shader" />
+     <None Include="Assets\Zyndo\ThirdParty\BlendModes\Resources\BlendModes\Extra\CameraOverlay.shader" />
  <Reference Include="UnityEngine.UI">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -356,6 +502,9 @@
  </Reference>
  <Reference Include="UnityEngine.Analytics">
  <HintPath>/Applications/Unity/Unity.app/Contents/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="HotTotemCrypto">
+ <HintPath>/Users/sarahrice/Desktop/ZYNDO_GIT/SUMERIA_FULLBOOK/Assets/Zyndo/ThirdParty/HotTotemAssets/EpicPrefs/Plugins/HotTotemAssets/EpicPrefs/Code/Handlers/HotTotemCrypto.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
