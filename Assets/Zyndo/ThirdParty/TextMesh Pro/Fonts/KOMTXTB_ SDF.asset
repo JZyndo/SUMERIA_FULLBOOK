@@ -23,6 +23,7 @@ MonoBehaviour:
     LineHeight: 95.1875
     Baseline: 0
     Ascender: 71.875
+    CapHeight: 51.125
     Descender: -21.0625
     CenterLine: 0
     SuperscriptOffset: 71.875
@@ -30,6 +31,8 @@ MonoBehaviour:
     SubSize: 0.5
     Underline: -9.25
     UnderlineThickness: 3.7
+    strikethrough: 20.45
+    strikethroughThickness: 0
     TabWidth: 193.75
     Padding: 5
     AtlasWidth: 512
@@ -44,6 +47,7 @@ MonoBehaviour:
     xOffset: 0
     yOffset: 71.875
     xAdvance: 19.375
+    scale: 1
   - id: 33
     x: 59
     y: 81
@@ -52,6 +56,7 @@ MonoBehaviour:
     xOffset: 2.6875
     yOffset: 50.8125
     xAdvance: 13.9375
+    scale: 1
   - id: 34
     x: 290
     y: 367
@@ -60,6 +65,7 @@ MonoBehaviour:
     xOffset: 3.25
     yOffset: 48.5
     xAdvance: 22.9375
+    scale: 1
   - id: 35
     x: 287
     y: 245
@@ -68,6 +74,7 @@ MonoBehaviour:
     xOffset: 5.75
     yOffset: 48.5625
     xAdvance: 49.3125
+    scale: 1
   - id: 36
     x: 81
     y: 443
@@ -76,6 +83,7 @@ MonoBehaviour:
     xOffset: 3.125
     yOffset: 53.1875
     xAdvance: 34.625
+    scale: 1
   - id: 37
     x: 103
     y: 149
@@ -84,6 +92,7 @@ MonoBehaviour:
     xOffset: 5.5
     yOffset: 49.9375
     xAdvance: 46.5625
+    scale: 1
   - id: 38
     x: 139
     y: 19
@@ -92,6 +101,7 @@ MonoBehaviour:
     xOffset: 3.3125
     yOffset: 49.625
     xAdvance: 43.9375
+    scale: 1
   - id: 39
     x: 321
     y: 367
@@ -100,6 +110,7 @@ MonoBehaviour:
     xOffset: 2.75
     yOffset: 48.5
     xAdvance: 9.75
+    scale: 1
   - id: 40
     x: 47
     y: 437
@@ -108,6 +119,7 @@ MonoBehaviour:
     xOffset: 5.625
     yOffset: 61.1875
     xAdvance: 25.9375
+    scale: 1
   - id: 41
     x: 6
     y: 274
@@ -116,6 +128,7 @@ MonoBehaviour:
     xOffset: 4.75
     yOffset: 60.6875
     xAdvance: 25.6875
+    scale: 1
   - id: 42
     x: 344
     y: 11
@@ -124,6 +137,7 @@ MonoBehaviour:
     xOffset: 1.875
     yOffset: 59.4375
     xAdvance: 37.0625
+    scale: 1
   - id: 43
     x: 295
     y: 7
@@ -132,6 +146,7 @@ MonoBehaviour:
     xOffset: 2.3125
     yOffset: 34.25
     xAdvance: 38
+    scale: 1
   - id: 44
     x: 148
     y: 360
@@ -140,6 +155,7 @@ MonoBehaviour:
     xOffset: 0.3125
     yOffset: 9.5625
     xAdvance: 13.5625
+    scale: 1
   - id: 45
     x: 110
     y: 359
@@ -148,6 +164,7 @@ MonoBehaviour:
     xOffset: 2.75
     yOffset: 20.5
     xAdvance: 26.375
+    scale: 1
   - id: 46
     x: 238
     y: 86
@@ -156,6 +173,7 @@ MonoBehaviour:
     xOffset: 1.5625
     yOffset: 10.625
     xAdvance: 12.3125
+    scale: 1
   - id: 47
     x: 136
     y: 233
@@ -164,6 +182,7 @@ MonoBehaviour:
     xOffset: 3.6875
     yOffset: 49.125
     xAdvance: 27.4375
+    scale: 1
   - id: 48
     x: 383
     y: 339
@@ -172,6 +191,7 @@ MonoBehaviour:
     xOffset: 2.75
     yOffset: 48.875
     xAdvance: 34.875
+    scale: 1
   - id: 49
     x: 481
     y: 411
@@ -180,6 +200,7 @@ MonoBehaviour:
     xOffset: 1.75
     yOffset: 47.5625
     xAdvance: 15.6875
+    scale: 1
   - id: 50
     x: 386
     y: 399
@@ -188,6 +209,7 @@ MonoBehaviour:
     xOffset: -0.125
     yOffset: 47.125
     xAdvance: 35.4375
+    scale: 1
   - id: 51
     x: 290
     y: 459
@@ -196,6 +218,7 @@ MonoBehaviour:
     xOffset: -0.125
     yOffset: 47
     xAdvance: 36.6875
+    scale: 1
   - id: 52
     x: 339
     y: 457
@@ -204,6 +227,7 @@ MonoBehaviour:
     xOffset: 0.6875
     yOffset: 48.1875
     xAdvance: 42
+    scale: 1
   - id: 53
     x: 338
     y: 399
@@ -212,6 +236,7 @@ MonoBehaviour:
     xOffset: 0
     yOffset: 47.0625
     xAdvance: 36.125
+    scale: 1
   - id: 54
     x: 345
     y: 185
@@ -220,6 +245,7 @@ MonoBehaviour:
     xOffset: 3.125
     yOffset: 48.375
     xAdvance: 38.5
+    scale: 1
   - id: 55
     x: 472
     y: 293
@@ -228,6 +254,7 @@ MonoBehaviour:
     xOffset: 0.875
     yOffset: 46.8125
     xAdvance: 33.4375
+    scale: 1
   - id: 56
     x: 392
     y: 177
@@ -236,6 +263,7 @@ MonoBehaviour:
     xOffset: 1.9375
     yOffset: 46.9375
     xAdvance: 35.6875
+    scale: 1
   - id: 57
     x: 433
     y: 411
@@ -244,6 +272,7 @@ MonoBehaviour:
     xOffset: 1.375
     yOffset: 47.5625
     xAdvance: 36.6875
+    scale: 1
   - id: 58
     x: 434
     y: 20
@@ -252,6 +281,7 @@ MonoBehaviour:
     xOffset: 2.4375
     yOffset: 31
     xAdvance: 12.3125
+    scale: 1
   - id: 59
     x: 45
     y: 11
@@ -260,6 +290,7 @@ MonoBehaviour:
     xOffset: -0.1875
     yOffset: 31.4375
     xAdvance: 12.75
+    scale: 1
   - id: 60
     x: 474
     y: 110
@@ -268,6 +299,7 @@ MonoBehaviour:
     xOffset: 5.75
     yOffset: 32.8125
     xAdvance: 36.25
+    scale: 1
   - id: 61
     x: 425
     y: 329
@@ -276,6 +308,7 @@ MonoBehaviour:
     xOffset: 5.1875
     yOffset: 33.5
     xAdvance: 40.875
+    scale: 1
   - id: 62
     x: 392
     y: 38
@@ -284,6 +317,7 @@ MonoBehaviour:
     xOffset: 4.9375
     yOffset: 33
     xAdvance: 36.3125
+    scale: 1
   - id: 63
     x: 93
     y: 212
@@ -292,6 +326,7 @@ MonoBehaviour:
     xOffset: 4.4375
     yOffset: 50.4375
     xAdvance: 36.75
+    scale: 1
   - id: 64
     x: 83
     y: 82
@@ -300,6 +335,7 @@ MonoBehaviour:
     xOffset: 3.6875
     yOffset: 50
     xAdvance: 57.375
+    scale: 1
   - id: 65
     x: 156
     y: 171
@@ -308,6 +344,7 @@ MonoBehaviour:
     xOffset: 0.75
     yOffset: 49.5625
     xAdvance: 42.0625
+    scale: 1
   - id: 66
     x: 174
     y: 299
@@ -316,6 +353,7 @@ MonoBehaviour:
     xOffset: 4.6875
     yOffset: 49
     xAdvance: 43
+    scale: 1
   - id: 67
     x: 52
     y: 145
@@ -324,6 +362,7 @@ MonoBehaviour:
     xOffset: 3.875
     yOffset: 50
     xAdvance: 40.3125
+    scale: 1
   - id: 68
     x: 225
     y: 301
@@ -332,6 +371,7 @@ MonoBehaviour:
     xOffset: 5.0625
     yOffset: 49.8125
     xAdvance: 42.5
+    scale: 1
   - id: 69
     x: 290
     y: 399
@@ -340,6 +380,7 @@ MonoBehaviour:
     xOffset: 4.75
     yOffset: 47.625
     xAdvance: 37
+    scale: 1
   - id: 70
     x: 344
     y: 62
@@ -348,6 +389,7 @@ MonoBehaviour:
     xOffset: 4.3125
     yOffset: 48.875
     xAdvance: 33.75
+    scale: 1
   - id: 71
     x: 125
     y: 453
@@ -356,6 +398,7 @@ MonoBehaviour:
     xOffset: 3.875
     yOffset: 50
     xAdvance: 51
+    scale: 1
   - id: 72
     x: 6
     y: 63
@@ -364,6 +407,7 @@ MonoBehaviour:
     xOffset: 4.1875
     yOffset: 51.125
     xAdvance: 43.1875
+    scale: 1
   - id: 73
     x: 343
     y: 245
@@ -372,6 +416,7 @@ MonoBehaviour:
     xOffset: 4.0625
     yOffset: 48.375
     xAdvance: 13.6875
+    scale: 1
   - id: 74
     x: 191
     y: 23
@@ -380,6 +425,7 @@ MonoBehaviour:
     xOffset: 1.5
     yOffset: 48.4375
     xAdvance: 36.4375
+    scale: 1
   - id: 75
     x: 211
     y: 172
@@ -388,6 +434,7 @@ MonoBehaviour:
     xOffset: 4.8125
     yOffset: 48.5625
     xAdvance: 38.3125
+    scale: 1
   - id: 76
     x: 227
     y: 239
@@ -396,6 +443,7 @@ MonoBehaviour:
     xOffset: 4.5
     yOffset: 48.5625
     xAdvance: 30.5
+    scale: 1
   - id: 77
     x: 276
     y: 306
@@ -404,6 +452,7 @@ MonoBehaviour:
     xOffset: 4.875
     yOffset: 48.75
     xAdvance: 55.0625
+    scale: 1
   - id: 78
     x: 173
     y: 234
@@ -412,6 +461,7 @@ MonoBehaviour:
     xOffset: 4.5
     yOffset: 49.1875
     xAdvance: 45.9375
+    scale: 1
   - id: 79
     x: 142
     y: 389
@@ -420,6 +470,7 @@ MonoBehaviour:
     xOffset: 3.875
     yOffset: 50
     xAdvance: 44.875
+    scale: 1
   - id: 80
     x: 296
     y: 184
@@ -428,6 +479,7 @@ MonoBehaviour:
     xOffset: 4.6875
     yOffset: 48.5
     xAdvance: 38.6875
+    scale: 1
   - id: 81
     x: 75
     y: 293
@@ -436,6 +488,7 @@ MonoBehaviour:
     xOffset: 3.6875
     yOffset: 50.0625
     xAdvance: 46.375
+    scale: 1
   - id: 82
     x: 343
     y: 123
@@ -444,6 +497,7 @@ MonoBehaviour:
     xOffset: 4.75
     yOffset: 48.125
     xAdvance: 39.1875
+    scale: 1
   - id: 83
     x: 186
     y: 453
@@ -452,6 +506,7 @@ MonoBehaviour:
     xOffset: 3.25
     yOffset: 49.9375
     xAdvance: 44.4375
+    scale: 1
   - id: 84
     x: 150
     y: 86
@@ -460,6 +515,7 @@ MonoBehaviour:
     xOffset: 4.3125
     yOffset: 50.125
     xAdvance: 34.875
+    scale: 1
   - id: 85
     x: 238
     y: 391
@@ -468,6 +524,7 @@ MonoBehaviour:
     xOffset: 5.125
     yOffset: 48.4375
     xAdvance: 42.8125
+    scale: 1
   - id: 86
     x: 295
     y: 55
@@ -476,6 +533,7 @@ MonoBehaviour:
     xOffset: 4.3125
     yOffset: 47.625
     xAdvance: 36.375
+    scale: 1
   - id: 87
     x: 71
     y: 18
@@ -484,6 +542,7 @@ MonoBehaviour:
     xOffset: 3.25
     yOffset: 49.75
     xAdvance: 54.25
+    scale: 1
   - id: 88
     x: 240
     y: 455
@@ -492,6 +551,7 @@ MonoBehaviour:
     xOffset: 0.75
     yOffset: 49.4375
     xAdvance: 33.5
+    scale: 1
   - id: 89
     x: 239
     y: 25
@@ -500,6 +560,7 @@ MonoBehaviour:
     xOffset: 4.5
     yOffset: 48.75
     xAdvance: 43.0625
+    scale: 1
   - id: 90
     x: 289
     y: 116
@@ -508,6 +569,7 @@ MonoBehaviour:
     xOffset: 2
     yOffset: 48.5625
     xAdvance: 40
+    scale: 1
   - id: 91
     x: 39
     y: 275
@@ -516,6 +578,7 @@ MonoBehaviour:
     xOffset: 3.625
     yOffset: 59.1875
     xAdvance: 27.5
+    scale: 1
   - id: 92
     x: 110
     y: 378
@@ -524,6 +587,7 @@ MonoBehaviour:
     xOffset: 6.9375
     yOffset: 50.8125
     xAdvance: 29.9375
+    scale: 1
   - id: 93
     x: 6
     y: 194
@@ -532,6 +596,7 @@ MonoBehaviour:
     xOffset: 5.1875
     yOffset: 59.0625
     xAdvance: 27.5625
+    scale: 1
   - id: 94
     x: 173
     y: 361
@@ -540,6 +605,7 @@ MonoBehaviour:
     xOffset: 15.625
     yOffset: 49.3125
     xAdvance: 27.125
+    scale: 1
   - id: 95
     x: 75
     y: 276
@@ -548,6 +614,7 @@ MonoBehaviour:
     xOffset: -1.6875
     yOffset: -1.1875
     xAdvance: 32.9375
+    scale: 1
   - id: 96
     x: 208
     y: 363
@@ -556,6 +623,7 @@ MonoBehaviour:
     xOffset: 11.375
     yOffset: 48
     xAdvance: 33.875
+    scale: 1
   - id: 97
     x: 458
     y: 246
@@ -564,6 +632,7 @@ MonoBehaviour:
     xOffset: 1.75
     yOffset: 33.75
     xAdvance: 36.6875
+    scale: 1
   - id: 98
     x: 132
     y: 296
@@ -572,6 +641,7 @@ MonoBehaviour:
     xOffset: 5.75
     yOffset: 49
     xAdvance: 34.625
+    scale: 1
   - id: 99
     x: 412
     y: 235
@@ -580,6 +650,7 @@ MonoBehaviour:
     xOffset: 3.1875
     yOffset: 33.3125
     xAdvance: 31.9375
+    scale: 1
   - id: 100
     x: 199
     y: 109
@@ -588,6 +659,7 @@ MonoBehaviour:
     xOffset: 3.0625
     yOffset: 48.9375
     xAdvance: 38.9375
+    scale: 1
   - id: 101
     x: 435
     y: 155
@@ -596,6 +668,7 @@ MonoBehaviour:
     xOffset: 2.875
     yOffset: 32.5625
     xAdvance: 32.375
+    scale: 1
   - id: 102
     x: 197
     y: 390
@@ -604,6 +677,7 @@ MonoBehaviour:
     xOffset: 4.0625
     yOffset: 50.375
     xAdvance: 26.75
+    scale: 1
   - id: 103
     x: 339
     y: 306
@@ -612,6 +686,7 @@ MonoBehaviour:
     xOffset: 3.5
     yOffset: 33.3125
     xAdvance: 36.375
+    scale: 1
   - id: 104
     x: 247
     y: 110
@@ -620,6 +695,7 @@ MonoBehaviour:
     xOffset: 4.5
     yOffset: 49.25
     xAdvance: 35.1875
+    scale: 1
   - id: 105
     x: 480
     y: 351
@@ -628,6 +704,7 @@ MonoBehaviour:
     xOffset: 4.0625
     yOffset: 47.875
     xAdvance: 13.75
+    scale: 1
   - id: 106
     x: 72
     y: 358
@@ -636,6 +713,7 @@ MonoBehaviour:
     xOffset: -8.875
     yOffset: 48.3125
     xAdvance: 15.1875
+    scale: 1
   - id: 107
     x: 257
     y: 177
@@ -644,6 +722,7 @@ MonoBehaviour:
     xOffset: 4.5625
     yOffset: 49.25
     xAdvance: 28.75
+    scale: 1
   - id: 108
     x: 267
     y: 239
@@ -652,6 +731,7 @@ MonoBehaviour:
     xOffset: 5.3125
     yOffset: 49.375
     xAdvance: 13.4375
+    scale: 1
   - id: 109
     x: 392
     y: 470
@@ -660,6 +740,7 @@ MonoBehaviour:
     xOffset: 4.6875
     yOffset: 34.25
     xAdvance: 53.3125
+    scale: 1
   - id: 110
     x: 474
     y: 64
@@ -668,6 +749,7 @@ MonoBehaviour:
     xOffset: 4.5
     yOffset: 33.75
     xAdvance: 34.5
+    scale: 1
   - id: 111
     x: 412
     y: 282
@@ -676,6 +758,7 @@ MonoBehaviour:
     xOffset: 3.125
     yOffset: 33.5
     xAdvance: 36.375
+    scale: 1
   - id: 112
     x: 6
     y: 127
@@ -684,6 +767,7 @@ MonoBehaviour:
     xOffset: 3.3125
     yOffset: 34.75
     xAdvance: 36.8125
+    scale: 1
   - id: 113
     x: 43
     y: 209
@@ -692,6 +776,7 @@ MonoBehaviour:
     xOffset: 3.125
     yOffset: 33.9375
     xAdvance: 37.25
+    scale: 1
   - id: 114
     x: 478
     y: 155
@@ -700,6 +785,7 @@ MonoBehaviour:
     xOffset: 4.5625
     yOffset: 34.0625
     xAdvance: 25.8125
+    scale: 1
   - id: 115
     x: 433
     y: 364
@@ -708,6 +794,7 @@ MonoBehaviour:
     xOffset: 1.6875
     yOffset: 33.6875
     xAdvance: 36.1875
+    scale: 1
   - id: 116
     x: 6
     y: 7
@@ -716,6 +803,7 @@ MonoBehaviour:
     xOffset: 3.25
     yOffset: 42.9375
     xAdvance: 29.875
+    scale: 1
   - id: 117
     x: 391
     y: 84
@@ -724,6 +812,7 @@ MonoBehaviour:
     xOffset: 4.8125
     yOffset: 34.125
     xAdvance: 35.125
+    scale: 1
   - id: 118
     x: 433
     y: 85
@@ -732,6 +821,7 @@ MonoBehaviour:
     xOffset: 2
     yOffset: 33.375
     xAdvance: 28.25
+    scale: 1
   - id: 119
     x: 452
     y: 470
@@ -740,6 +830,7 @@ MonoBehaviour:
     xOffset: 3.0625
     yOffset: 33.9375
     xAdvance: 42.3125
+    scale: 1
   - id: 120
     x: 392
     y: 131
@@ -748,6 +839,7 @@ MonoBehaviour:
     xOffset: 0.625
     yOffset: 33.4375
     xAdvance: 28.5
+    scale: 1
   - id: 121
     x: 366
     y: 246
@@ -756,6 +848,7 @@ MonoBehaviour:
     xOffset: 0.375
     yOffset: 33.5
     xAdvance: 32.0625
+    scale: 1
   - id: 122
     x: 456
     y: 201
@@ -764,6 +857,7 @@ MonoBehaviour:
     xOffset: 1.5
     yOffset: 32.625
     xAdvance: 32.0625
+    scale: 1
   - id: 123
     x: 6
     y: 436
@@ -772,6 +866,7 @@ MonoBehaviour:
     xOffset: 4.5625
     yOffset: 59.9375
     xAdvance: 34.1875
+    scale: 1
   - id: 124
     x: 47
     y: 357
@@ -780,6 +875,7 @@ MonoBehaviour:
     xOffset: 3.125
     yOffset: 58.25
     xAdvance: 14.1875
+    scale: 1
   - id: 125
     x: 6
     y: 355
@@ -788,6 +884,7 @@ MonoBehaviour:
     xOffset: 4.625
     yOffset: 60.4375
     xAdvance: 34.1875
+    scale: 1
   - id: 126
     x: 199
     y: 86
@@ -796,6 +893,7 @@ MonoBehaviour:
     xOffset: 7.25
     yOffset: 42.875
     xAdvance: 33.75
+    scale: 1
   - id: 160
     x: 6
     y: 517
@@ -804,6 +902,7 @@ MonoBehaviour:
     xOffset: 0
     yOffset: 0
     xAdvance: 19.375
+    scale: 1
   - id: 8230
     x: 234
     y: 367
@@ -812,6 +911,7 @@ MonoBehaviour:
     xOffset: 3.0625
     yOffset: 11.9375
     xAdvance: 48.5625
+    scale: 1
   m_kerningInfo:
     kerningPairs: []
   m_kerningPair:
@@ -991,10 +1091,10 @@ Material:
       second: 0.8333333
     - first:
         name: _ScaleRatioB
-      second: 0.8333333
+      second: 0.6770833
     - first:
         name: _ScaleRatioC
-      second: 0.8333333
+      second: 0.6770833
     - first:
         name: _ScaleX
       second: 1
