@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/SUMERIA_ZYNDO_CH10.unity
+- path: Assets/SUMERIA_ZYNDO_CH03.unity
   isLoaded: 1
   isActive: 1
