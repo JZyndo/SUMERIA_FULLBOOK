@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6b8e4ce888641468b8f1d6016fd21fc9
-timeCreated: 1503437510
+guid: d3a15224bf36c4c49b66ebb0ab3fc575
+timeCreated: 1503437575
 licenseType: Free
 TextureImporter:
   fileIDToRecycleName: {}
@@ -50,12 +50,12 @@ TextureImporter:
   textureType: 8
   buildTargetSettings:
   - buildTarget: iPhone
-    maxTextureSize: 1024
+    maxTextureSize: 512
     textureFormat: -1
     compressionQuality: 50
     allowsAlphaSplitting: 0
   - buildTarget: Android
-    maxTextureSize: 1024
+    maxTextureSize: 512
     textureFormat: -1
     compressionQuality: 50
     allowsAlphaSplitting: 0
@@ -63,7 +63,7 @@ TextureImporter:
     serializedVersion: 2
     sprites: []
     outline: []
-  spritePackingTag: CH03-014-002_layers
+  spritePackingTag: CH03-018-002_layers
   userData: 
   assetBundleName: 
   assetBundleVariant: 
